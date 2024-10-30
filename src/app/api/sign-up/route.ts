@@ -53,5 +53,7 @@ export async function POST(request: Request) {
     await newUser.save();
   }
   try {
-  } catch (error) {}
+  } catch (error) {
+    
+  }
 }
